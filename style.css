@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 40px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 12px 12px 0px rgba(0, 0, 0, 1);
+    border: 2px solid black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-box {
+    border-radius: 4px;
+    background-color: hsl(47, 88%, 63%);
+    max-height: 100px;
+    max-width: 100px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.small-box p {
+    font-weight: bold;
+}
+
+h2 {
+    margin: 13px 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.man {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.man-image {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.man p {
+    display: flex;
+    align-items: center; /* Vertically center text relative to image */
+    margin: 0; /* Remove default margins for proper alignment */
+}
+
